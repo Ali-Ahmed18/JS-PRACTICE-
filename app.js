@@ -524,3 +524,259 @@
 // }else{
 // alert("Not Programmed")
 // }
+
+
+         ///////////////CH#12-13////////////////////
+
+
+// const arry=[]
+// console.log(arry)
+
+
+// var arrayB = new Array()
+// console.log(arrayB)
+
+
+// var arre = ["hello"]
+// console.log(arre)
+
+
+// var arre =[2]
+// console.log(arre)
+
+
+// var arre =[true , false]
+// console.log(arre[0])
+// console.log(arre[1])
+
+
+// var arre =["Ali",18,"aliahmedyk18@gmail.com",true]
+// console.log(arre)
+              
+// var edu = ["SSC", "HSC", "BCS","BS", "BCOM", "MS", "M. Phil.", "PhD"]
+// document.write(`<h1>Qualification:</h1><ol><li>${edu[0]}</li><li>${edu[1]}</li><li>${edu[2]}</li><li>${edu[3]}</li><li>${edu[4]}</li><li>${edu[5]}</li><li>${edu[6]}</li></ol>`)
+
+
+// var stdNam = ["ali","fahad","shams"]
+// var stdScore =[320,350,390]
+// var totalmark = 500
+// document.write(`score of ${stdNam[0]} is ${stdScore[0]}.percentage: ${stdScore[0] / totalmark * 100}%<br/>`)
+// document.write(`score of ${stdNam[1]} is ${stdScore[1]}.percentage: ${stdScore[1] / totalmark * 100}%<br/>`)
+// document.write(`score of ${stdNam[2]} is ${stdScore[2]}.percentage: ${stdScore[2] / totalmark * 100}%<br/>`)
+ 
+
+// var color =["red","blue","yellow","green"]
+// document.write(`${color}`)
+// console.log(color.shift[0])
+
+
+// var color = ["red","blue","yellow","green"]
+// var whatColor = prompt("what color do you want at beginning")
+// color.unshift(whatColor)
+// document.write(`${color}<br/>`,)
+
+// var whatColor1=prompt("what color do you want to add in end")
+// color.push (whatColor1)
+// document.write(`${color}<br/>`)
+
+// color.unshift("golden","brown")
+// document.write(`${color}<br/>`)
+
+// color.shift()
+// document.write(`${color}<br/>`)
+
+// color.pop()
+// document.write(`${color}<br/>`)
+
+
+// var user1 = prompt("Which index do you you want to add color?")
+// var user2 = prompt("What color do yo want to add")
+// color.splice(user1,0,user2)
+// document.write(`${color}<br/>`)
+
+// var user3 = prompt("which index you want to delete color(s)")
+// var user4 = prompt("how many color you want to delete")
+// color.splice(user3,user4)
+// document.write(`${color}<br/>`)
+
+
+// var cityName = ["karachi","lahore","islamabad","muree","sialkot"]
+// document.write(`<h1>Cities list</h1><p>${cityName}</p>`)
+// var selectname = cityName.slice(2,4)
+// document.write(`<h1>selected Cities list</h1>${selectname}`)
+
+
+// var arr = ["this","is","my","cat"]
+// console.log(arr)
+
+// console.log(arr.join(" "))
+
+
+// var accessories = ["keyboard","mouse","printer","monitor"]
+// document.write(`<h3>Devices:</h3>${accessories}`)
+// for(var i = 0; i < accessories.length; i++)[
+// document.write(`<h3>Out:</h3>${accessories[i]}`)
+// ]
+
+
+// var accessories = ["keyboard","mouse","printer","monitor"]
+// document.write(`<h3>Devices:</h3>${accessories}`)
+// for(var i = 0; i < accessories.length; i++)[
+// document.write(`<h3>Out:</h3>${accessories[i]}`)
+// ]
+
+
+
+// var accessories1 = ["keyboard","mouse","printer","monitor"]
+// document.write(`<h3>Devices:</h3>${accessories1}`)
+// for(var i = accessories1.length-1; i >= 0;i--){
+//     document.write(`<h3>out:</h3>${accessories1[i]}`)
+
+// }
+
+
+// var mobile = ["sumsung","infinix","motorola","nokia","sony","haier"]
+// document.write(`<select><option disabled selected>select brand</option><option>${mobile[0]}</option><option>${mobile[1]}</option><option>${mobile[2]}</option><option>${mobile[3]}</option><option>${mobile[4]}</option><option>${mobile[5]}</option></select>`)
+
+
+         ///////////////CH#17-20////////////////////
+
+
+ ////////////question1/////////////
+        // var arr = []
+        // arr.push([]);
+        // arr.push([]);
+        // arr[0].push(1);
+        // arr[0].push(2);
+        // arr[1].push(3);
+        // arr[1].push(4);
+
+        // console.log(arr)
+
+         /////////////question2///////////// 
+
+        // var matrix = [
+        //     [0,1,2,3],
+        //     [1,0,1,2],
+        //     [2,1,0,1]
+        // ]
+
+        // document.write(matrix[0] + "<br>" + matrix[1] + "<br>" + matrix[2])
+
+
+    /////////////question3/////////////    
+
+    // for (i=1; i <= 10; i++){
+    // console.log(i)
+    // }
+
+        // for (var i = 10;i > 0;i--){
+        //     console.log(i)
+        // }
+
+        
+    //////////question4///////////////
+
+    // var value = Number(prompt("what do you want table"));
+    // var length = +prompt("length of table")
+    // var result;
+
+    //     for(let a = 1; a <= length; a++){
+    //         result = value * a
+    //         document.write(`<h1>${value}x${a}=${result}<br/></h1>`)
+    //     }
+
+
+    ///////////question5///////////////
+
+    // var fruits = ["apple","mango","banana","orange","strawberry"]
+    // for(let i = 0; i < fruits.length; i++){
+    //     document.write(`${fruits[i]}<br/>`)
+    // }
+
+    // for(let i = 0; i < fruits.length; i++){
+    //     document.write(`element at index ${i} is ${fruits[i]}<br/>`)
+
+    // }
+
+
+    ////////question6////////////
+    // document.write("<h2>Counting</h2>")
+    // for(b=1;b < 15;b++){
+    //     document.write(b + " ")
+    //  }
+
+
+    //  document.write("<h2>Reverse Counting</h2>")
+    //  for(b=10;b >= 1;b--){
+    //     document.write(b + " ")
+    //  }
+    
+    //  document.write("<h2>Even Number</h2>")
+    //  for(i = 0; i <= 20; i += 2){
+    //     document.write(i + " ")
+    //  }
+  
+    //  document.write("<h2>Odd Number</h2>")
+    //  for(i = 1; i <= 20; i += 2){
+    //     document.write(i + " ")
+    //  }
+
+    //  document.write("<h2>Series</h2>")
+    //  for(i = 2; i <= 20; i += 2){
+    //     document.write(i + "K" + " ")
+    //  }
+    
+
+        ////////question7////////////
+  
+    // var a = ["cake","apple pie","cookie","chips","patties",]
+    // var user = prompt("Welcome to My bakery whats do you want to order?")
+    // var flags = false
+    // for(var i = 0;i < a.length;i++){
+    //     if(a[i] === user){
+    //         document.write(`${a[i]} is available at index ${i} in our bakery`)
+    //         flags = true
+    //         break
+    //     }
+          
+    // }
+    // if(flags == false){
+    //     document.write(`we are sorry ${user} is not available in our bakery`)
+    // }
+
+
+        ////////question8////////////
+
+
+    // var a = [20, 53, 50, 91, 70];
+    // var lN = 0; 
+    // document.write("<h3>Array items:</h3>",a)
+    // for(var i = 0; i < a.length; i++){
+    //     if(a[i] > lN){
+    //         lN = a[i]
+    //     }
+    // }
+
+    // document.write("<h3>The largest number:</h3>",lN)
+
+        ////////question9////////////
+
+    // var a = [20, 53, 50, 91, 70];
+    // var lN = a[0]; 
+    // document.write("<h3>Array items:</h3>",a)
+    // for(var i = 0; i < a.length; i++){
+    //     if(lN > a[i]){
+    //         lN = a[i]
+    //     }
+    // }
+
+    // document.write("<h3>The smallest number:</h3>",lN)  
+
+        ////////question10////////////
+
+//         var limit = 100;
+
+//     for (let i = 1; i <= limit / 10; i++) {
+//     document.write(i * 10 + "<br/>");
+// }        
